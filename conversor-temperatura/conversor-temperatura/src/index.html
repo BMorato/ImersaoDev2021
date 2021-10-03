@@ -1,0 +1,30 @@
+<html>
+  <head>
+    </p><img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+  <meta name="author" content="Bruna Vaz Morato">
+    <title> Imersão Dev Alura - Aula 02</title>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+      Conversor de Temperatura</h1>
+      <p class="page-subtitle">
+      Escolha a medida 
+      </p>
+<p>
+  <label>Celsius</label>
+  <input id="inputCelsius" type="number" placeholder="Celsius" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+</p>
+<p>Kelvin: <span id="outputKelvin"></span></p>
+
+<script>
+function temperatureConverter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("outputKelvin").innerHTML=valNum+273.15;
+}
+  
+</script>
+      
+  </div>
+	<img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</body>
+</html>

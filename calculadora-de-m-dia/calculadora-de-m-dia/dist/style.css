@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  min-height: 400px;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/4954/4954230.png');
+  background-color: SteelBlue;
+  background-size: 40vh;
+  background-position: 15% 50%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.title {
+  font-size: 150%;
+  text-align: center;
+}
+
+.formulario {
+  margin-left: 40%;
+  margin-right: 100%;
+  background-color: gray;opacity:0.8;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+label {
+  font-size: 150%;
+  text-align: justify;
+}
+
+input {
+  display: block;
+  float: right;
+  width: 130px;
+}
+
+.btnResultado {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  margin-top: 20px;
+}
+
+#btn {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+  background: #fafad2;
+}
+
+#btn:hover {
+  background: #ffd700;
+}
+
+#resultado {
+  
+  font-style: "normal", monospace;
+  color: white;
+  font-size: 15px;
+  font-weight: 90;
+  text-align: center left;
+  position: absolute;
+  top: 55%;
+  left: 58%;
+}
